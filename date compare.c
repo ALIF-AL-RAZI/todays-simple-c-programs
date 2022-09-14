@@ -44,19 +44,19 @@ int main()
     {
         printf("%s is earlier than %s",date2, date1);
     }
-    else if(y1=y2)
+    else if(y1==y2)
     {
         if(m1>m2)
         {
             printf("%s is earlier than %s",date2, date1);
         }
-        else if(m1=m2)
+        else if(m1==m2)
         {
             if(d1>d2)
             {
                 printf("%s is earlier than %s",date2, date1);
             }
-            else if (d1=d2)
+            else if (d1==d2)
             {
                 printf("Two dates are same.");
             }
